@@ -39,6 +39,8 @@ private slots:
     void but15_press();
     void but16_press();
 
+    void half_game_hint();
+
 private:
 
     void set_catagories();
@@ -50,5 +52,6 @@ private:
     bool reset = true;
     S_REF_SET game[5];
     uint8_t game_id = 0;
+    uint8_t buttons_pressed;
 };
 #endif // GUESS_WORD_H

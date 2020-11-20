@@ -3,6 +3,7 @@
 #include <QString>
 struct S_REF_SET {
     QString cat;
+    QString cat_hint;
     QString refs[16];
     QString ans;
 };
